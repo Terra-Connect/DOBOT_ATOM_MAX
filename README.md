@@ -1,6 +1,6 @@
 # DOBOT ATOM MAX — Policy Training Pipeline
 
-![Dobot Robot Learning Pipeline](Media/Dobot%20Robot%20Learning%20Pipeline.png)
+![Dobot Robot Learning Pipeline](Media/train_pipeline.png)
 
 **Workflow:** Meta Quest teleoperation → raw `.jpg` + `.pkl` recordings → HDF5 → ACT training → offline test → real-robot inference.
 
