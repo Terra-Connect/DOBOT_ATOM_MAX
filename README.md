@@ -1,8 +1,10 @@
-# DOBOT ATOM MAX — Policy Training Pipeline
+# DOBOT ATOMMX — Policy Training Pipeline
 
 ![Dobot Robot Learning Pipeline](Media/train_pipeline.png)
 
 **Workflow:** Meta Quest teleoperation → raw `.jpg` + `.pkl` recordings → HDF5 → ACT training → offline test → real-robot inference.
+
+**Limitation:** This package is designed for the robot's **upper-body manipulation system**. It does not provide full-body locomotion learning or train the humanoid's entire body.
 
 
 
