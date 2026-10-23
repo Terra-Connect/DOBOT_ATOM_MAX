@@ -1,10 +1,11 @@
-# DOBOT ATOMMX — Policy Training Pipeline
-
+# DOBOT ATOMMX — Imitation learning for manipulation
 ![Dobot Robot Learning Pipeline](Media/train_pipeline.png)
 
 **Workflow:** Meta Quest teleoperation → raw `.jpg` + `.pkl` recordings → HDF5 → ACT training → offline test → real-robot inference.
 
 **Limitation:** This package is designed for the robot's **upper-body manipulation system**. It does not provide full-body locomotion learning or train the humanoid's entire body.
+
+**Model inputs:** The policy uses RGB camera images and joint states; it does not use depth data, so it is not an RGB-D manipulation policy.
 
 
 
